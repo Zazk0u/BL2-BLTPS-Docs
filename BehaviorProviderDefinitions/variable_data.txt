@@ -10,5 +10,5 @@
 # So far the only way to see the pointers of a variable is using python. Have Fun.
 # Some variables may have a pointer value set by the game engine directly which the BPD use: 
   - Ie: a BVAR_Float for a Behavior_Delay, and won't be safe to type change unless you set the pointer manually to 0.
-  - Typically any variable that weren't outputted by an event data or behavior.
+  - Generally any variable that weren't outputted by an event data or behavior.
 # BVAR_NamedVariable is always 0 which make it the safest variable to type change via targeted hotfixes.
