@@ -1,0 +1,1 @@
+# Can't use OnDamagedEnemy to output the hit location when using status effects damage, they register as (0.00, 0.00, 0.00) in the damage pipeline.
