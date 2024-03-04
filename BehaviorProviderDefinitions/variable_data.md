@@ -1,7 +1,7 @@
 Variable within the VariableData array have a pointer property that link to their actual values.
 When you set the VariableData array, all those pointers become 0. 
 Those variables can have a pointer of 0 :
--BVAR_Float, BVAR_Int, BVAR_Bool, BVAR_Object, BVAR_NamedVariable, BVAR_AllPlayers, BVAR_NamedKismetVariable```
+  - BVAR_Float, BVAR_Int, BVAR_Bool, BVAR_Object, BVAR_NamedVariable, BVAR_AllPlayers, BVAR_NamedKismetVariable
 Those variables can never have a pointer of 0 and will crash your game :
   - BVAR_Vector, BVAR_AttachmentLocation, BVAR_DirectionVector, BVAR_Attribute, BVAR_Flag, BVAR_BinaryMath, BVAR_InstanceData, BVAR_DirectionVector, BVAR_AttachmentLocation
 Type change is possible if the pointer of a variable accept 0 and is 0, it's possible to set the pointer value manually using targeting hotfixes.
