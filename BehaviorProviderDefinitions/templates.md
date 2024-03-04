@@ -1,4 +1,4 @@
-Some usefull BPD templates:
+<font size="0.4"> Some usefull BPD templates: </font>
 GD_Lawbringer_Skills.Projectiles.Projectile_Pickpocket:BehaviorProviderDefinition_0 : 					2 BVAR_Object / 2 BVAR_Vector  / 4 variables.
 GD_Shields.Projectiles.Projectile_ShootingStar:BehaviorProviderDefinition_0 : 							1 BVAR_Int / 1 BVAR_NamedVariable/ 2 BVAR_Object / 1 BVAR_Vector  / 5 variables.
 GD_Cork_Weap_Shotgun.Skills.Skill_Boganella:BehaviorProviderDefinition_0 : 								3 BVAR_Object / 3 BVAR_Float  / 6 variables.
@@ -15,6 +15,5 @@ GD_Shields.Skills.Nova_Shield_Skill_Sunshine:BehaviorProviderDefinition_0 : 				
 GD_Gladiator_Skills.Xiphos.Epicenter:BehaviorProviderDefinition_3 :  									6 BVAR_Vector / 6 BVAR_Float / 2 BVAR_Object / 10 BVAR_NamedVariables / 1 BVAR_DirectionVector / BVAR_AttachmentLocation / 33 variables
 GD_Weap_Shotgun.Projectiles.Projectile_TedioreReloadShotgun_Legendary:BehaviorProviderDefinition_0 : 	3 BVAR_Vector / 3 BVAR_Bool / 8 BVAR_Float / 2 BVAR_Object / 2 BVAR_AttachmentLocation / 1 BVAR_DirectionVector / 9 BVAR_NamedVariables / 46 variables
 GD_Enforcer_Skills.ActionSkill.ActionSkill_AirPower:BehaviorProviderDefinition_0 : 						7 BVAR_Object / 1 BVAR_AllPlayers / 8 BVAR_Vector / 2 BVAR_DirectionVector / 1 BVAR_Bool / 4 BVAR_Int / 10 BVAR_Float / 17 BVAR_NamedVariable / 66 variables.
-
 
 
