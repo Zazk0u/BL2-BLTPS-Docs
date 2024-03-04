@@ -1,4 +1,4 @@
-### [Some usefull BPD templates:]
+###[Some usefull BPD templates:]
 ### GD_Lawbringer_Skills.Projectiles.Projectile_Pickpocket:BehaviorProviderDefinition_0 : 					2 BVAR_Object / 2 BVAR_Vector  / 4 variables.]
 ### GD_Shields.Projectiles.Projectile_ShootingStar:BehaviorProviderDefinition_0 : 							1 BVAR_Int / 1 BVAR_NamedVariable/ 2 BVAR_Object / 1 BVAR_Vector  / 5 variables.]
 ### GD_Cork_Weap_Shotgun.Skills.Skill_Boganella:BehaviorProviderDefinition_0 : 								3 BVAR_Object / 3 BVAR_Float  / 6 variables.]
