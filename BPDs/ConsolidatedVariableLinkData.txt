@@ -1,4 +1,4 @@
 # ConnexionIndex is the parameter index of the function that output a variable.
- - ie: OnDamagedEnemy : 0 = SkillInstigator, 1 = Damaged Object, 2 = bWasCrit... 
- - Some function's value might sometime change going in TPS, since TPS add parameters.
+ ie: OnDamagedEnemy : 0 = SkillInstigator, 1 = Damaged Object, 2 = bWasCrit...
+ Some function's value might sometime change going in TPS, since TPS add parameters.
 # Property name for variable outputs dosen't matter, only for inputs.
