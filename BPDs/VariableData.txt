@@ -1,16 +1,16 @@
 # Variable within the VariableData array have a pointer property that link to their actual values.
 # When you set the VariableData array, all those pointers become 0. 
 # Those variables can have a pointer of 0 :
-  - BVAR_Float, BVAR_Int, BVAR_Bool, BVAR_Object, BVAR_NamedVariable, BVAR_AllPlayers, BVAR_NamedKismetVariable
+  BVAR_Float, BVAR_Int, BVAR_Bool, BVAR_Object, BVAR_NamedVariable, BVAR_AllPlayers, BVAR_NamedKismetVariable
 # Those variables can never have a pointer of 0 and will crash your game :
-  - BVAR_Vector, BVAR_AttachmentLocation, BVAR_DirectionVector, BVAR_Attribute, BVAR_Flag, BVAR_BinaryMath, BVAR_InstanceData, BVAR_DirectionVector, BVAR_AttachmentLocation
+  BVAR_Vector, BVAR_AttachmentLocation, BVAR_DirectionVector, BVAR_Attribute, BVAR_Flag, BVAR_BinaryMath, BVAR_InstanceData, BVAR_DirectionVector, BVAR_AttachmentLocation
 # Type change is possible if the pointer of a variable accept 0 and is 0, it's possible to set the pointer value manually using targeting hotfixes.
-# Changing the type of a variable: 
- - BehaviorSequence[0].VariableData[0].Value (Name=,Type= *value to set*)
-# Setting the pointer of a variable: 
- - BehaviorSequence[0].VariableData[0].Value.Data.Dummy *value to set*
-# Some variables may have a pointer value set by the game engine directly which the BPD use: 
-  - Ie: a BVAR_Float for a Behavior_Delay, and won't be safe to type change unless you set the pointer manually to 0.
-  - Generally any variable that weren't outputted from an event data or behavior need to have it's pointer set manually to 0 for type changing.
+# Changing the type of a variable:
+  BehaviorSequence[0].VariableData[0].Value (Name=,Type= *value to set*)
+# Setting the pointer of a variable:
+  BehaviorSequence[0].VariableData[0].Value.Data.Dummy *value to set*
+# Some variables may have a pointer value set by the game engine directly which the BPD use:
+  Ie: a BVAR_Float for a Behavior_Delay, and won't be safe to type change unless you set the pointer manually to 0.
+  Generally any variable that weren't outputted from an event data or behavior need to have it's pointer set manually to 0 for type changing.
 # So far the only way to see the pointers of a variable is using python.
 # BVAR_NamedVariable is always 0, make it the safest variable to type change via targeted hotfixes.
