@@ -18,7 +18,6 @@ Behavior_SetScreenParticleParameters
 Behavior_ShiftEvents
 Behavior_ShowSubroutineLoadedMessage
 Behavior_SpawnAttachmentItems
-Behavior_SpawnDecal //new functions
 Behavior_SpawnWeapon
 Behavior_SpawnWeaponAndEquip
 Behavior_Trace
@@ -81,4 +80,3 @@ PlayerBehavior_BlockDueling
 PlayerBehavior_Lunge
 PlayerBehavior_ToggleDualMeleeWeapon
 PlayerBehavior_ToggleForceFire
-ProjectileBehavior_FindHomingTarget //new functions
