@@ -27,7 +27,7 @@ GD_Enforcer_Skills.CyberCommando.PowerFist:BehaviorProviderDefinition_12 :
 GD_Shields.Skills.Nova_Shield_Skill_Sunshine:BehaviorProviderDefinition_0 : 							
   2 BVAR_Object / 10 BVAR_Int / 9 BVAR_NamedVariable / 4 BVAR_Vector /  2 BVAR_Float  / 27 variables.
 GD_Gladiator_Skills.Xiphos.Epicenter:BehaviorProviderDefinition_3 :  									
-  6 BVAR_Vector / 6 BVAR_Float / 2 BVAR_Object / 10 BVAR_NamedVariables / 1 BVAR_DirectionVector / BVAR_AttachmentLocation / 33 variables.
+  6 BVAR_Vector / 6 BVAR_Float / 2 BVAR_Object / 10 BVAR_NamedVariables / 1 BVAR_DirectionVector / 2 BVAR_AttachmentLocation / 33 variables.
 GD_Weap_Shotgun.Projectiles.Projectile_TedioreReloadShotgun_Legendary:BehaviorProviderDefinition_0 : 	
   3 BVAR_Vector / 3 BVAR_Bool / 8 BVAR_Float / 2 BVAR_Object / 2 BVAR_AttachmentLocation / 1 BVAR_DirectionVector / 9 BVAR_NamedVariables / 46 variables.
 GD_Enforcer_Skills.ActionSkill.ActionSkill_AirPower:BehaviorProviderDefinition_0 : 						
