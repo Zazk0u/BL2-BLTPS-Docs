@@ -1,0 +1,23 @@
+<BLCMM v="1">
+#<!!!You opened a file saved with BLCMM in FilterTool. Please update to BLCMM to properly open this file!!!>
+	<head>
+		<type name="TPS" offline="true"/>
+		<profiles>
+			<profile name="default" current="true"/>
+		</profiles>
+	</head>
+	<body>
+		<category name="MongolElementFix">
+			<comment>To fix the trail, need to create an instance data in the accessory, like how grenades does already.</comment>
+			<code profiles="default">set ProjectileDefinition'GD_Cork_Weap_Launchers.Projectiles.Projectile_Rocket_Vladof_Mongol_Child' ExplosionOverrideContext (InstancedDataContextName="Owner",ContextObject=None,BehaviorContext=BCONTEXT_Self,bSupportsDefaultOutputLink=0)</code>
+			<code profiles="default">set ProjectileDefinition'GD_Cork_Weap_Launchers.Projectiles.Projectile_Rocket_Vladof_Mongol_Child' ExplosionOverrideName ExplosionOverride</code>
+			<code profiles="default">set Behavior_SpawnProjectile'GD_Cork_Weap_Launchers.Projectiles.Projectile_Rocket_Vladof_Mongol:BehaviorProviderDefinition_0.Behavior_SpawnProjectile_2' OwnerContext (InstancedDataContextName="Owner",ContextObject=None,BehaviorContext=BCONTEXT_Self,bSupportsDefaultOutputLink=0)</code>
+		</category>
+	</body>
+</BLCMM>
+
+#Commands:
+set ProjectileDefinition'GD_Cork_Weap_Launchers.Projectiles.Projectile_Rocket_Vladof_Mongol_Child' ExplosionOverrideContext (InstancedDataContextName="Owner",ContextObject=None,BehaviorContext=BCONTEXT_Self,bSupportsDefaultOutputLink=0)
+set ProjectileDefinition'GD_Cork_Weap_Launchers.Projectiles.Projectile_Rocket_Vladof_Mongol_Child' ExplosionOverrideName ExplosionOverride
+set Behavior_SpawnProjectile'GD_Cork_Weap_Launchers.Projectiles.Projectile_Rocket_Vladof_Mongol:BehaviorProviderDefinition_0.Behavior_SpawnProjectile_2' OwnerContext (InstancedDataContextName="Owner",ContextObject=None,BehaviorContext=BCONTEXT_Self,bSupportsDefaultOutputLink=0)
+
