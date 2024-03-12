@@ -14,3 +14,4 @@
   Generally any variable that weren't outputted from an event data or behavior need to have it's pointer set manually to 0 for type changing.
 # So far the only way to see the pointers of a variable is using python.
 # BVAR_NamedVariable is always 0, make it the safest variable to type change via targeted hotfixes.
+# You can use targeted hotfixes and not add the VariableData struct in it, that way it set all values but the VariableData.
