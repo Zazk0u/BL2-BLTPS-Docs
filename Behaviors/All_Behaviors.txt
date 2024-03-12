@@ -1,4 +1,4 @@
-BL2/TPS Behaviors:
+BL2/BLTPS Behaviors:
 Behavior_AIChangeInventory
 Behavior_AICloak
 Behavior_AIFollow
@@ -327,3 +327,6 @@ ProjectileBehavior_SetProximity
 ProjectileBehavior_SetSpeed
 ProjectileBehavior_SetStickyGrenade
 ProjectileBehavior_TagPayloadType
+
+BL2 Only:
+Behavior_SetAnemoneInfectionState
