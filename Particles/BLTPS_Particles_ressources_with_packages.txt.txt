@@ -1,5 +1,5 @@
 # Todo: rearrange some stuff the script did not arrange properly, eventually.
-# Ma_RightCluster_Combat, Ma_RightCluster_Corruption and Ma_RightCluster_SideMission crashes the game when trying to loadthemt from the character menu, did not check them.
+# Ma_RightCluster_Combat, Ma_RightCluster_Corruption and Ma_RightCluster_SideMission crashes the game when trying to load them from the character menu, did not check them.
 
 Alway loaded:
 ParticleSystem Env_Co_Moon_Davery.Particles.Part_MethaneSteam
