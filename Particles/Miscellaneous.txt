@@ -1,0 +1,2 @@
+# Can clone the object archetype ParticleSystem'Engine.Default__ParticleSystem', and then manually add the emitters from the package you want in it. 
+- To prevent crashes, since cloning existing ParticleSystem can cause issues.
