@@ -1,8 +1,8 @@
 BL2/BLTPS:
+BehaviorBase
 Behavior_AIChangeInventory
 Behavior_AICloak
 Behavior_AIFollow
-Behavior_AIHold
 Behavior_AIHold
 Behavior_AILevelUp
 Behavior_AIPatsy
@@ -43,6 +43,7 @@ Behavior_AwardExperienceForMyDeath
 Behavior_BeginLifting
 Behavior_BoolMath
 Behavior_BroadcastEcho
+Behavior_CallFunction
 Behavior_CauseDamage
 Behavior_CauseTinnitus
 Behavior_ChangeAllegiance
@@ -69,9 +70,11 @@ Behavior_ChangeVisibility
 Behavior_ChangeWeaponVisibility
 Behavior_Charm
 Behavior_CheckMapChangeConditions
+Behavior_ClearObjective
 Behavior_ClearStatusEffects
 Behavior_ClientConsoleCommand
 Behavior_CombatPerch
+Behavior_CombatPerchThrow
 Behavior_CompareBool
 Behavior_CompareFloat
 Behavior_CompareInt
@@ -104,7 +107,7 @@ Behavior_DisableFallingDamage
 Behavior_DiscoverLevelChallengeObject
 Behavior_DropItems
 Behavior_DropProjectile
-Behavior_DuplicateInstanceData 
+Behavior_DuplicateInstanceData
 Behavior_EnterVehicle
 Behavior_Explode
 Behavior_FailMission
@@ -161,13 +164,14 @@ Behavior_PawnLeap
 Behavior_PhaseLockHold
 Behavior_PhysXLevel
 Behavior_PlayAIMissionContextDialog
-Behavior_PlayAnimation 
+Behavior_PlayAnimation
 Behavior_PlayHardFlinch
 Behavior_PlayMultipleExplosionsSound
 Behavior_PlaySound
 Behavior_PostAkEvent
 Behavior_PostAkEventGetRTPC
 Behavior_PostProcessChain
+Behavior_PostProcessChain_LostShield
 Behavior_PostProcessOverlay
 Behavior_PursueNodeType
 Behavior_QueryDayNightCycle
@@ -244,7 +248,7 @@ Behavior_SetUsabilityByMissionDirectives
 Behavior_SetUsabilityCost
 Behavior_SetUsableIcon
 Behavior_SetVectorParam
-Behavior_SetVehicleSimObject 
+Behavior_SetVehicleSimObject
 Behavior_ShowGenericReviveMessage
 Behavior_ShowMissionInterface
 Behavior_ShowPullThePinNotification
@@ -261,6 +265,8 @@ Behavior_SpawnFromPopulationSystem
 Behavior_SpawnFromVehicleSpawnStation
 Behavior_SpawnItems
 Behavior_SpawnLoot
+Behavior_SpawnLootAroundPoint
+Behavior_SpawnLootAtPoints
 Behavior_SpawnParticleSystem
 Behavior_SpawnParticleSystemAtWorldLocation
 Behavior_SpawnPerch
@@ -277,6 +283,7 @@ Behavior_StopAkAmbientSound
 Behavior_StopDialog
 Behavior_StopMeleeAttack
 Behavior_StopMissionTimer
+Behavior_Switch
 Behavior_ToggleDialog
 Behavior_ToggleNPCAlly
 Behavior_ToggleObstacle
@@ -294,12 +301,16 @@ Behavior_UpgradeSkill
 Behavior_UseObject
 Behavior_VectorMath
 Behavior_VectorToLocalSpace
+Behavior_VoGScreenParticle
 Behavior_WeaponBoneControl
 Behavior_WeaponGlowEffect
 Behavior_WeaponThrow
 Behavior_WeaponVisibleAmmoState
 Behavior_WeaponsRestriction
+ParameterBehaviorBase
+PlayerBehaviorBase
 PlayerBehavior_CameraAnim
+PlayerBehavior_DropItems
 PlayerBehavior_ForceFeedback
 PlayerBehavior_Melee
 PlayerBehavior_PlayEchoCall
@@ -314,6 +325,7 @@ PlayerBehavior_ToggleRevive
 PlayerBehavior_UnlockAchievement
 PlayerBehavior_UnlockAchievementForAllPlayers
 PlayerBehavior_ViewShake
+ProjectileBehaviorBase
 ProjectileBehavior_Attach
 ProjectileBehavior_Bounce
 ProjectileBehavior_Detonate
@@ -327,6 +339,7 @@ ProjectileBehavior_SetProximity
 ProjectileBehavior_SetSpeed
 ProjectileBehavior_SetStickyGrenade
 ProjectileBehavior_TagPayloadType
+WillowVersusDuelBehavior
 
 BL2 Only:
 Behavior_SetAnemoneInfectionState
@@ -340,6 +353,7 @@ Behavior_EnableHandIK
 Behavior_EnemyInRange
 Behavior_ForceSave
 Behavior_GetClosestEnemy
+Behavior_GetHoundTarget
 Behavior_GetZoneVelocity
 Behavior_Knockback
 Behavior_LanguageSwitch
@@ -361,6 +375,8 @@ OZBehavior_CloneMainhandWeaponToOffhand
 OZBehavior_DestroyOffhandWeapon
 OZBehavior_GetSkillTarget
 OZBehavior_RemoveSkillTarget
+OZBehavior_SetParticlePlayerOwner
+OZPlayerBehavior_PlayAnimationOnMeleeWeaponMesh
 OzBehavior_AIStartGravityWellState
 OzBehavior_ActivateSkillWithGradeOf
 OzBehavior_ActorList
@@ -389,6 +405,7 @@ OzBehavior_IsTargetDead
 OzBehavior_MissionCustomPlayerEvent
 OzBehavior_NotifyInstinctSkillAction
 OzBehavior_SetAITarget
+OzBehavior_SetCollisionComponent
 OzBehavior_SetFaceFxAsset
 OzBehavior_SetForceDualWieldBlendState
 OzBehavior_SetPlayerFlag
@@ -403,9 +420,7 @@ OzBehavior_TriggerShield
 OzBehavior_TriggerSpawnProjectileFromHandsEvent
 OzBehavior_Vacuum
 OzPlayerBehavior_BloodRushAttack
-OZPlayerBehavior_PlayAnimationOnMeleeWeaponMesh
 PlayerBehavior_BlockDueling
 PlayerBehavior_Lunge
 PlayerBehavior_ToggleDualMeleeWeapon
 PlayerBehavior_ToggleForceFire
-
