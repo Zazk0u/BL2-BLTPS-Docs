@@ -1,2 +1,2 @@
 Cathartic and Juggernaut oz kits can have any elemental resistance, the pictures are just for the max stats for each resistances.
-Cryo duality oz kit is bugged and boost the impact of corrosive damage instead of cryo.
+Cryo duality oz kit is bugged and boost the impact damage of corrosive instead of cryo.
